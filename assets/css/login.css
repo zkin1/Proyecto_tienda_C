@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #000;
+  background: #2A2D37;
   overflow: hidden;
 }
 
@@ -86,7 +86,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #555;
+  background-color: #6C3483;
   padding: 0;
   height: 50px;
   margin: 0;
@@ -128,21 +128,5 @@ nav {
 .menu .register {
   position: absolute;
   top: 0;
-  right: 50px;
-}
-
-.menu .login a,
-.menu .register a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 10px;
-}
-
-nav img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 5px;
-  width: 40px;
-  height: 40px;
+  right: 30px;
 }
