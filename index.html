@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/styleIndex.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav>
+    <img src="./assets/img/bana.jpg" alt="bana" width="40px">
+    <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li class="login"><a href="login.html">Login</a></li>
+        <li class="register"><a href="register.html">Register</a></li>
+    </ul>
+</nav>
+
+  <!-- Carrusel de imagenes -->
+  <div id="carouselProductos" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselProductos" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselProductos" data-slide-to="1"></li>
+      <li data-target="#carouselProductos" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="./bromaasesina.html">
+          <img src="./assets/img/PbromaAsesina.png" alt="fotoBromaAsesina">
+          <div class="carousel-caption">
+            <h3>La broma asesina</h3>
+          </div>
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="./berserk.html">
+          <img src="./assets/img/Pberserk.png" alt="fotoBerserk">
+          <div class="carousel-caption">
+            <h3>Berserk</h3>
+            <p></p>
+          </div>
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="./batman.html">
+          <img src="./assets/img/Pbatman.png" alt="fotoBatman">
+          <div class="carousel-caption">
+            <h3>Batman</h3>
+            <p></p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselProductos" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselProductos" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Siguiente</span>
+    </a>
+  </div>
+  <!-- Carrusel de imagenes -->
+
+    <!-- Barra de busqueda -->
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <input type="text" id="searchInput" class="form-control" placeholder="Buscar por nombre de producto">
+          <button onclick="search()" class="btn btn-primary mt-2">Buscar</button>
+        </div>
+      </div>
+    </div>
+    <!-- Barra de búsqueda -->
+  
+    <!-- Seccion de resultados de la busqueda -->
+    <div class="container mt-4" id="resultadosBusqueda">
+      <!-- Aquí se mostrarán los resultados de la busqueda -->
+    </div>
+    <!-- Seccion de resultados de la busqueda -->
+    
+    <script src="./assets/js/script.js"></script>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mt-5">
+                <div class="card max-width-400">
+                    <img src="./assets/img/PterrorInsolito.png" alt="terrorInsolito" class="card-img-top" width="100px">
+                    <div class="card-body">
+                        <h5 class="card-title">Junji Ito: Maestro Del Terror – Terror Insólito Vol. 3 De 3</h5>
+                        <p class="card-text"></p>
+                        <a href="terrorinsolito.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-5">
+                <div class="card max-width-400">
+                    <img src="./assets/img/Ponepice.png" alt="onepice" class="card-img-top" width="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">ONE PIECE EDICION 3 EN 1: PACK 1 A 5</h5>
+                        <p class="card-text"></p>
+                        <a href="onepice.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+</body>
+</html>

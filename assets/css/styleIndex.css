@@ -1,0 +1,52 @@
+.carousel-item {
+    margin-top: 400;
+    height: 500px;
+  }
+  
+  .carousel-item img {
+    object-fit: contain;
+    max-height: 300px;
+    max-width: 100%;
+    padding: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: 60px;
+  }
+
+  .carousel-caption {
+    position: static;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5F4BC9;
+    padding: 0;
+    height: 50px;
+}
+
+.menu {
+    color: #6C3483;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 15px;
+}
+
+body{
+  background-color: #2A2D37;
+
+}
