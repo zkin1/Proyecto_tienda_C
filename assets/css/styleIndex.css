@@ -1,6 +1,12 @@
+  body{
+    background-color: #2A2D37;
+}
+  
+  .carousel.slide {
+    margin-top: 100px; 
+}
 
-
-.carousel-item {
+  .carousel-item {
     margin-top: 400;
     height: 500px;
   }
@@ -25,30 +31,74 @@
   }
   
   nav {
-    position: fixed;
+    position: static;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #5F4BC9;
+    background-color: #6C3483;
     padding: 0;
     height: 50px;
-}
+    margin: 0;
+  }
 
-.menu {
-    color: #6C3483;
+  .menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
     font-size: 14px;
-}
+  }
+  
 
-.menu li {
+  .menu li {
     display: inline;
     margin-right: 15px;
-}
+  }
 
-body{
-  background-color: #2A2D37;
+  .menu li:last-child {
+    margin-right: 0;
+  }
 
-}
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+  }
+
+  .menu li a:hover {
+    background-color: #272624;
+  }
+
+  .menu .login {
+    position: absolute;
+    top: 0;
+    right: 100px;
+  }
+
+  .menu .register {
+    position: absolute;
+    top: 0;
+    right: 30px;
+  }
+
+  footer.footer {
+    margin-top: 50px;
+  }
+  
+  footer.footer h5 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  footer.footer ul.list-unstyled li {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer.footer ul.list-unstyled li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer.footer ul.list-unstyled li a:hover {
+    color: #ccc;
+  }
