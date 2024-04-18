@@ -72,3 +72,9 @@ body{
   .btn-primary:hover {
     background-color: #0056b3;
   }
+  .close-button {
+    position: absolute;
+    right: 25px;
+    top: 5px;
+    cursor: pointer;
+}

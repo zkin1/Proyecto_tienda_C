@@ -35,51 +35,55 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #6C3483;
+    background-image: url('../img/batmanbanner.jpg'); /* Cambia 'ruta/de/tu/imagen.jpg' por la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
     padding: 0;
-    height: 50px;
+    height: 350px;
     margin: 0;
-  }
+    transition: opacity 0.2s ease, color 0.2s ease;
+}
 
-  .menu {
+.menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
     font-size: 14px;
-  }
-  
+}
 
-  .menu li {
+.menu li {
     display: inline;
     margin-right: 15px;
-  }
+}
 
-  .menu li:last-child {
+.menu li:last-child {
     margin-right: 0;
-  }
+}
 
-  .menu li a {
+.menu li a {
     color: white;
     text-decoration: none;
     padding: 10px 10px;
-  }
+}
 
-  .menu li a:hover {
+.menu li a:hover {
     background-color: #272624;
-  }
+}
 
-  .menu .login {
+.menu .login {
     position: absolute;
     top: 0;
     right: 100px;
-  }
+}
 
-  .menu .register {
+.menu .register {
     position: absolute;
     top: 0;
     right: 30px;
-  }
+}
+
 
   footer.footer {
     margin-top: 50px;
@@ -101,4 +105,21 @@
   
   footer.footer ul.list-unstyled li a:hover {
     color: #ccc;
+  }
+  
+  h1{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  h2{
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+  }
+
+  h4{
+    text-align: center;
+    color: white;
   }
