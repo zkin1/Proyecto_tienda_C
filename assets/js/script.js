@@ -24,6 +24,11 @@ const productos = [
       nombre: "Junji Ito: Maestro Del Terror – Terror Insólito Vol. 3 De 3",
       imagen: "./assets/img/PterrorInsolito.png",
       descripcion: "En este volumen Junji Ito despliega su maestría en la creación de ambientes, como vemos en El disco de segunda mano, uno de los favoritos del autor, donde la música se convierte en un elemento espeluznante. Otros ejemplos son La cañería gimiente, un relato que gira en torno al ruido inquietante de un desagüe, El club de los fumadores, donde el humo es algo fascinante que poco a poco se va adueñando de toda la historia, o Un laberinto insoportable, en el que la espiritualidad y la claustrofobia se unen para crear una auténtica pesadilla."
+    },
+    {
+      nombre: "Pumpkin night - Vol. 6",
+      imagen: "./assets/img/pumpkin.jpg",
+      descripcion: "Su amigo, un chico llamado Kazuya Makino, es el próximo objetivo de este misterioso asesino. Resulta que la verdadera identidad de Pumpkin Night es Naoko Kirino, una niña intimidada desde la infancia y que ha escapado de una institución mental para vengarse de sus matones."
     }
   ];
   
@@ -71,6 +76,7 @@ const productos = [
 function obtenerEnlaceProducto(nombreProducto) {
   const enlaces = {
     "Batman Núm. 11": "batman.html",
+    "Pumpkin night - Vol. 6": "pumpkin.html",
     "Maximum Berserk 7": "berserk.html",
     "Batman: La Broma Asesina (Grandes Novelas Gráficas De Batman)": "bromaasesina.html",
     "ONE PIECE EDICION 3 EN 1: PACK 1 A 5": "onepice.html",
