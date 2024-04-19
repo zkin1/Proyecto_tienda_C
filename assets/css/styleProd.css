@@ -1,56 +1,6 @@
 body{
     background-color: #2A2D37;
 }
-  
-nav {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #6C3483;
-    padding: 0;
-    height: 50px;
-    margin: 0;
-  }
-  
-  .menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 14px;
-  }
-  
-  .menu li {
-    display: inline;
-    margin-right: 15px;
-  }
-  
-  .menu li:last-child {
-    margin-right: 0;
-  }
-  
-  .menu li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 10px;
-  }
-  
-  .menu li a:hover {
-    background-color: #272624;
-  }
-  
-  .menu .login {
-    position: absolute;
-    top: 0;
-    right: 100px;
-  }
-  
-  .menu .register {
-    position: absolute;
-    top: 0;
-    right: 30px;
-  }
 
   h1{
     text-align: center;
